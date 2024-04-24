@@ -1,0 +1,9 @@
+function findMaxNum(array) {
+  let mayNum = 0;
+  array.forEach(function (element) {
+    if (element > mayNum) {
+      mayNum = element;
+    };
+  });
+  return mayNum;
+}
